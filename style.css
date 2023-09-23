@@ -1,0 +1,44 @@
+body {
+    background-color: #333;
+}
+#account-hearts {
+    border: 1px solid white;
+    width: 500px;
+    height: 500px;
+}
+#account-hearts .head {
+    height: 150px;
+    width: 150px;
+    margin-top: 150px;
+    margin-left: 250px;
+    background-image: radial-gradient(orange 65%,transparent 65%);
+}
+#account-hearts .heart {
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: -75px;
+    background-image: radial-gradient(orange 65%, transparent 65%),
+                      radial-gradient(orange 65%, transparent 65%),
+                      conic-gradient(orange 41deg, transparent 41deg 319deg, orange 319deg);
+    background-size: 57% 57%,
+                     57% 57%,
+                     100% 100%;
+    background-repeat: no-repeat;
+    background-position: top left, top right, 0 65px;
+}
+#account-hearts .body {
+    height: 150px;
+    width: 350px;
+    margin-left: 150px;
+    margin-top: -25px;
+    background-image: radial-gradient(orange 65%, transparent 65%);
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+}
+#account-hearts .div {
+    width: 322px;
+    height: 80px;
+    background-color: orange;
+    transform: translateX(14px) translateY(65px);
+}
